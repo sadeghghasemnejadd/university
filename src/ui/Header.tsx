@@ -1,3 +1,9 @@
+import { FiMoon } from 'react-icons/fi';
+
 export default function Header() {
-  return <header className="bg-blue-600 col-start-2">header</header>;
+  return (
+    <header className="col-start-2 flex items-center justify-end px-9">
+      <FiMoon fontSize={30} className="cursor-pointer" />
+    </header>
+  );
 }
